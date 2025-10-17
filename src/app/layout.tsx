@@ -14,7 +14,7 @@ export default function RootLayout({
           <section className="px-2 xsm:px-4 xxl:px-8">
             <LeftBar />
           </section>
-          <section className="flex-grow lg:min-w-[600px] border-x-[1px] border-gray-100">{children}</section>
+          <section className="flex-grow lg:min-w-[600px] border-x-[1px] border-borderGray">{children}</section>
           <section className="hidden lg:flex lg:ml-4 md:ml-8 flex-1">
             <RightBar />
           </section>
